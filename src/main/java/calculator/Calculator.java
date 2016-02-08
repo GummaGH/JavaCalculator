@@ -3,6 +3,11 @@ package calculator;
 import calculatorTest.DivideByZeroException;
 
 public class Calculator {
+	
+	private Calculator(){
+		
+	}
+	
 	public static double add(double number1, double number2) {
 		return number1 + number2;
 	}
@@ -17,7 +22,7 @@ public class Calculator {
 	
 	public static double divide(double number1, double number2) {
 				
-		if(number1 == 0 || number2 == 0) {
+		if(new Double(number2).equals(0.0)) {
 			throw new DivideByZeroException();
 		}
 		
