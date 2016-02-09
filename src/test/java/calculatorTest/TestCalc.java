@@ -3,6 +3,7 @@ package calculatorTest;
 import org.junit.Test;
 
 import calculator.Calculator;
+import calculator.DivideByZeroException;
 
 import static org.junit.Assert.*;
 

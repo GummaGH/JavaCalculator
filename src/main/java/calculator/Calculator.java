@@ -1,7 +1,5 @@
 package calculator;
 
-import calculatorTest.DivideByZeroException;
-
 public class Calculator {
 	
 	private Calculator(){

@@ -1,4 +1,4 @@
-package calculatorTest;
+package calculator;
 
 public class DivideByZeroException extends RuntimeException{
 
