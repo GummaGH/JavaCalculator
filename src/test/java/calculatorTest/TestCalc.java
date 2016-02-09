@@ -10,11 +10,6 @@ import static org.junit.Assert.*;
 public class TestCalc {
 
     @Test
-    public void testConstructor() {
-        Calculator calc = new Calculator();
-        assertNotNull(calc);
-    }
-    @Test
     public void testAdd_valid() {
         assertEquals(Calculator.add(1, 2), 3, 0);
     }
