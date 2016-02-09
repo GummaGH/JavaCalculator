@@ -2,7 +2,7 @@ package calculator;
 
 public class Calculator {
 
-    private Calculator(){
+    public Calculator(){
 
     }
 
